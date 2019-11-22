@@ -1,0 +1,124 @@
+pip3 install --editable .
+
+
+estructuras
+tuple()
+list()
+dict() diccionario
+sets()  colleciones de datos o conjuntos
+new_set = set
+
+
+
+funciones
+type(var) --devuelve que tipo de variable es
+
+
+variables
+_var=20   --variable private
+PI =2     --constante
+message   --varibale normal
+__do_not  --variables importante
+global var --deja utilizar variables globales en la funcion
+
+
+listas
+[] o list
+
+
+ambiente virtual
+
+intalar 
+pip  install virtualenv
+pip list --listar
+pip unistall paquete --desintalar
+pip freeze --listar versiones
+crear entorno
+
+virtualenv venv
+
+cd  venv/scripts
+activate
+
+
+main:
+if __name__=='__main__':
+
+
+documentacion
+
+help(funcion)
+"""ayuda """
+
+
+
+
+cliclos
+
+for variable in lista
+
+
+for i in range(1000)
+while n>0:
+
+
+tip
+for ind,valor in enumerate(lista)
+range(0,10)
+slice
+my_name[comienzo:final:pasos]
+split(',')
+
+ejemplos
+fib1 = fibonacci(20)
+fib_nums = [numfornumin fib1]
+...
+double_fib_nums = [num * 2fornumin fib1] # no va a funcionar
+double_fib_nums = [num * 2fornumin fibonacci(30)] # sí funciona
+
+
+....
+import copy 
+
+diccionario
+my_dict.keys()
+my_dict.values()
+my_dict.items()
+
+for key,value in my_dict.items()
+
+
+Las listas tienen varios métodos que podemos utilizar.
+
+    append :nos permite añadir elementos a listas. Cambia el tamaño de la lista.
+    pop    :nos permite sacar el último elemento de la lista. También recibe un índice y esto nos permite elegir qué elemento queremos eliminar.
+    sort   :modifica la propia lista y ordenarla de mayor a menor. Existe otro método llamado sorted, que también ordena la lista, pero genera una nueva instancia de la lista
+    delnos :permite eliminar elementos vía indices, funciona con slices
+    remove :nos permite es pasarle un valor para que Python compare internamente los valores y determina cuál de ellos hace match o son iguales para eliminarlos.
+
+
+
+"""
+new_tuple =tuple()
+------ TUPLAS ------
+Las tuplas (tuples) son similares a las listas.
+La unica diferencia es que las tuplas son inmutables.
+La diferencia con los strings es que pueden recibir muchos tipos valores.
+Son una serie de valores separados por comas, casi siempre se le agregan
+paréntesis para que sea mucho más legible.
+tup = 1,2,3
+tup = (1,2,3)-->Esta opción es la más se utiliza
+
+Para poderla inicializar utilizamos la función 'tuple'.
+Un uso muy común es utilizarlas para regresar más de
+un valor en una función.
+return (students,teachers)
+
+------ CONJUNTOS ------
+Los conjuntos (sets) son una colección sin orden que no 
+permite elementos duplicados. A diferencia de los tuples podemos
+agregar y eliminar, son mutables.
+Los sets se inicializan con la función 'set'.
+Para añadir elementos utilizamos el método 'add' y para eliminarlos
+utilizamos el método 'remove'
+"""

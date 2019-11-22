@@ -1,0 +1,20 @@
+Manejo de errores y jerarquía de errores en Python
+
+Python tiene una jerarquía rica de errores que nos da posibilidades para definir errores 
+por si no se puede leer un archivo, dividir entre cero, si existen problemas en general en 
+nuestro código Python tirará un error. El problema con esto es que nuestro programa termina, 
+es diferente a los errores de sintaxis donde nuestro programa nunca inicia.
+
+Para ““aventar”” un error en Python utilizamos la palabra raise. Aunque Python nos ofrece muchos 
+errores es buena práctica definir errores específicos de nuestra aplicación y usar los de Python para extenderlos.
+
+Podemos generar nuestros propios errores creando una clase que extienda de BaseException.
+
+Si queremos evitar que termine nuestro programa cuando ocurra un error, debemos tener un estrategia. 
+Debemos utilizar try / except cuando tenemos la posibilidad de que un pedazo de nuestro código falle
+
+    try: significa ejecuta este código y si podemos solo colocamos una sola línea de código ahí como buena práctica
+    except: es nuestro manejo del error, es lo que haremos si ocurre el error. Debemos ser específicos 
+    con el tipo de error que vamos a atrapar.
+    else: Es código que se ejecuta cuando no ocurre ningún error.
+    finally: Nos permite obtener un bloque de código que se va a ejecutar no importa lo que pase

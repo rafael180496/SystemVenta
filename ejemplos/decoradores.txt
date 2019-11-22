@@ -1,0 +1,23 @@
+Decoradores
+
+Python es un lenguaje que acepta diversos paradigmas como programación orientada a objetos y la programación 
+funcional, siendo estos los temas de nuestro siguiente módulo.
+
+Los decoradores son una función que envuelve a otra función para modificar o extender su comportamiento.
+
+En Python las funciones son ciudadanos de primera clase, first class citizen, esto significan que las 
+funciones pueden recibir funciones como parámetros y 
+pueden regresar funciones. Los decoradores utilizan este concepto de manera fundamental.
+
+
+
+Decoradores en Python
+
+En esta clase pondremos en práctica lo aprendido en la clase anterior sobre decoradores.
+
+Por convención la función interna se llama wrapper,
+
+Para usar los decoradores es con el símbolo de @(arroba) y las colocamos por encima de la función. Es un sugar syntax
+
+*args **kwargs son los argumentos que tienen keywords, es decir que tienen nombre o los argumentos posicionales, 
+los args. Los asteriscos es simplemente una expansión.

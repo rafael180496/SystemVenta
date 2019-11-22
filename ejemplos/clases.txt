@@ -1,0 +1,9 @@
+Programación orientada a objetos en Python
+
+Para declara una clase en Python utilizamos la keyword class, después de eso le damos el nombre. 
+Una convención en Python es que todas las clases empiecen con mayúscula y se continua con CamelCase.
+
+Un método fundamental es dunder init(__init__). Lo único que hace es inicializar la clase basado en los
+ parámetros que le damos al momento de construir la clase.
+
+self es una referencia a la clase. Es una forma internamente podemos acceder a las propiedades y métodos.

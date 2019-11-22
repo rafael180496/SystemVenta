@@ -1,0 +1,16 @@
+Python comprehensions
+Las Comprehensions son constructos que nos permite generar una secuencia a partir de otra secuencia.
+
+Existen tres tipos de comprehensions:
+
+    List comprehensions
+
+[element for element in element_list if element_meets_condition]
+
+    Dictionary comprehensions
+
+{key: element for element in element_list if element_meets_condition}
+
+    Sets comprehensions
+
+{element for element in element_list if elements_meets_condition}
